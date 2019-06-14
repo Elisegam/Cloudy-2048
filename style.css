@@ -3,7 +3,7 @@
   src: url("./Bubblegum.ttf");
 }
 body {
-  background: url("./../649168.jpg");
+  background: url("./649168.jpg");
   background-size: cover;
   background-attachment: fixed;
   font-family: "Bubblegum";
