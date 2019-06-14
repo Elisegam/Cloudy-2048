@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Bubblegum";
+  src: url("./Bubblegum.ttf");
+}
+body {
+  background: url("./../649168.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Bubblegum";
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
+}
+h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-family: "Bubblegum";
+  text-align: center;
+  font-size: 100px;
+  color: #ffc04d;
+  margin: 50px;
+  text-shadow: 4px 4px 2px rgba(0, 0, 255, 0.2);
+}
+#instruction {
+  width: 40%;
+  font-size: 20px;
+  padding: 3%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.game-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  color: #ff8353;
+  background: transparent;
+  border: 2px solid #ff8353;
+  border-radius: 6px;
+  width: 200px;
+  margin-bottom: 20px;
+  height: auto;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: "Bubblegum";
+  text-align: center;
+  box-shadow: 7px 2px 2px 2px rgba(0, 0, 255, 0.2);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.btn > a {
+  color: #ff8353;
+  text-decoration: none;
+  background: transparent;
+  width: 200px;
+  margin-bottom: 20px;
+  height: auto;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: "Bubblegum";
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.elem {
+  display: flex;
+  flex-direction: column;
+}
+.btn:hover {
+  background-color: #ff8353;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#game-block {
+  display: flex;
+  margin: 50px 0;
+  padding: 0;
+}
+canvas {
+  padding: 0;
+  margin: auto;
+  font-style: inherit;
+  box-shadow: 7px 13px 9px 6px rgba(0, 0, 255, 0.2);
+}
+
+#score {
+  padding: 20px;
+  font-size: 20px;
+}
+.rect {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px groove #808080;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.fa-volume-up {
+  padding: 10px;
+}
+
+span {
+  color: #ac491b;
+}
+.title > p {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bubblegum";
+  text-align: center;
+  font-size: 30px;
+  color: #f19a53;
+  margin: 0;
+  margin-right: 50px;
+  align-items: flex-end;
+  text-shadow: 4px 4px 2px rgba(0, 0, 255, 0.2);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
